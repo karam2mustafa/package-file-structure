@@ -1,3 +1,6 @@
 composer init
 
 composer require --dev orchestra/testbench
+
+// git error whin pull >> solve : 
+git pull origin master --allow-unrelated-histories
