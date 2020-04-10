@@ -1,0 +1,26 @@
+{
+    "name": "karam-tools/press",
+    "description": "first pacjage with coders tape course",
+    "license": "MIT",
+    "require-dev": {
+        "orchestra/testbench": "^5.1"
+    },
+    "authors": [
+        {
+            "name": "karam mustafa",
+            "email": "karam2mustafa@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload" : {
+        "psr-4": {
+            "KaramTools\\Press" : "src/"
+        }
+    },
+    "autoload-dev" : {
+        "psr-4" : {
+            "KaramTools\\Press\\Tests\\" : "tests/"
+        }
+    }
+}
+
